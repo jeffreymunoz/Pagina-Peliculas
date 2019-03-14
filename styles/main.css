@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(31, 15, 15);
+}
+div.nav-wrapper{
+    border: solid 3px goldenrod ;
+}
+header.carousel-slider>.carousel-item{
+    background-position: center;
+    background-size: cover; 
+}
+header.carousel{
+    height: calc( 100vh - 64px ) !important;
+    position: relative;
+}
+ article{
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 1400px;
+    top: 0;
+}
+article h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header.carousel-slider>.carousel-item:first-of-type{
+    background-image: url('../assets/panel1.jpg');
+}
+header.carousel-slider>.carousel-item:nth-of-type(2){
+    background-image: url('../assets/panel2.jpg');
+}
+header.carousel-slider>.carousel-item:nth-of-type(3){
+    background-image: url('../assets/panel3.jpg');
+}
+header.carousel-slider>.carousel-item:nth-of-type(4){
+    background-image: url('../assets/panel4.jpg');
+}
+header.carousel-slider>.carousel-item:last-of-type{
+    background-image: url('../assets/panel5.jpg');
+}
+a.brand-logo{
+    left: 200px;
+}
+div.logo img{
+    width: 70px;
+    margin: 0px 0px 0px 50px;
+    position: absolute;
+}
+div.card{
+    border-style:hidden;
+}
+div.card-action{
+    text-align: center;
+    background-color: grey !important;
+}
+footer.page-footer{
+    border-top: solid 5px black;
+}
+
+
